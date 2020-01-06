@@ -3,6 +3,8 @@
 /* 回答はここに書いてね */
 .q3_table {
   width: 100%;
+  text-align: center;
+  table-layout: fixed;
 }
 
 .q3_table th {
@@ -18,20 +20,16 @@
 }
 
 .q3_table th,td {
-  padding: 10px;
   border: solid #dedede 1px;
+  padding: 10px;
 }
 
-.q3_table tr:nth-child(odd) {
+.q3-body tr:nth-child(even) {
   background-color: #ecf1f2;
 }
 
-.q3_table tr:last-child {
+.q3-body tr:last-child {
   border-top: dashed #000 2px;
-}
-
-.q3_table th:first-child {
-  padding: 0;
 }
 
 /* 回答はここに書いてね */
