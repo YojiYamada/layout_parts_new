@@ -1,9 +1,6 @@
 @charset "UTF-8";
 
 /* 回答はここに書いてね */
-.is-1 {
-  margin: 0 auto;
-}
 
 .textbox {
   text-align: center;
@@ -24,22 +21,36 @@
   text-align: center;
 }
 
-.top {
+.table {
+  display: table;
+}
+
+.table-box {
+  display: table-cell;
+  text-align: center;
+  vertical-align: middle;
+}
+
+.q6-table {
+  display: inline-block;
+}
+
+.q6-text {
+  background-color: #fff;
+  padding: 10px;
+}
+
+.q6-flex {
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
-.top-tex {
-  background-color: #fff;
-  padding: 10px;
-}
-
-.bottom-box {
+.position-box {
   position: relative
 }
 
-.bottom-tex-1 {
+.position-1 {
   position: absolute;
   top: 0;
   right: 0;
@@ -48,7 +59,7 @@
   margin: auto;
 }
 
-.bottom-tex-2 {
+.position-2 {
   position: absolute;
   top: 50%;
   left: 50%;
