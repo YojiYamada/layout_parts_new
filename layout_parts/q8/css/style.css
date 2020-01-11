@@ -8,15 +8,19 @@
   overflow: hidden;
   width: 500px;
   height: 333px;
-  cursor: pointer
+  cursor: pointer;
 }
 
 .q8-img {
   transition: 0.5s;
 }
 
-.q8-img:hover {
+.q8-trans:hover .q8-img {
   transform: scale(1.5);
+}
+
+.q8-trans:hover .q8-textbox {
+  bottom: 0;
 }
 
 .q8-textbox {
@@ -39,9 +43,6 @@
   word-break: break-all;
 }
 
-.q8-img:hover + .q8-textbox {
-  bottom: 0;
-}
 
 .road {
   width: 100px;
