@@ -44,5 +44,22 @@
   bottom: 0;
 }
 
+.road {
+  width: 100px;
+  height: 100px;
+  margin: 0 auto;
+  border: 10px #ecf1f2 solid;
+  border-top: 10px #00bcd4 solid;
+  border-radius: 50%;
+  animation: q8-road 1.1s infinite linear;
+}
+
+@keyframes q8-road {
+  100% { 
+      transform: rotate(360deg); 
+  }
+}
+
+
 
 /* 回答はここに書いてね */
